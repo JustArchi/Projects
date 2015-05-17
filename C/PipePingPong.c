@@ -67,7 +67,7 @@ int reportStatistics() {
 	}
 
 	memset(segptr, 0, SEGSIZE);
-	sprintf(segptr, "Statistics:\Passed: %u balls\n", howManyPassed);
+	sprintf(segptr, "Statistics:\nPassed: %u balls\n", howManyPassed);
 #ifdef VERBOSE
 	printf("Saved message:\n%s", segptr);
 #endif
